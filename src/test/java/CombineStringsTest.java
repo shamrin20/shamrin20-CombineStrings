@@ -2,6 +2,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class CombineStringsTest {
+    public static class Lab {
+        public String combine(String input1, String input2) {
+            return input1 + input2;
+        }
+    }
     Lab cs = new Lab();
 
     /**
